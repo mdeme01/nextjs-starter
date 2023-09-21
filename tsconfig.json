@@ -30,6 +30,9 @@
       ],
       "@styles/*": [
         "./src/lib/styles/*"
+      ],
+      "@redux/*": [
+        "./src/lib/redux/*"
       ]
     }
   },
