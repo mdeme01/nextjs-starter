@@ -1,7 +1,5 @@
-import { Counter } from '@components/ui/counter';
-
 const Home = (): JSX.Element => {
-  return <Counter />;
+  return <h1>Next.js starter</h1>;
 };
 
 export default Home;
