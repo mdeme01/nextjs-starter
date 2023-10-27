@@ -1,0 +1,6 @@
+/.next
+/.git
+/out
+/coverage
+
+/node_modules
