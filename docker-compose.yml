@@ -1,0 +1,21 @@
+services:
+  web_dev:
+    container_name: web_dev
+    build:
+      dockerfile: ./docker/dev/Dockerfile
+      context: ./
+    ports:
+      - '3000:3000'
+    working_dir: /app
+    volumes:
+      - ./:/app
+  web_prod:
+    container_name: web_prod
+    build:
+      dockerfile: ./docker/prod/Dockerfile
+      context: ./
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - '3001:3001'
