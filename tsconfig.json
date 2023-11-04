@@ -22,6 +22,7 @@
     "baseUrl": ".",
     "paths": {
       "@app/*": ["./src/app/*"],
+      "~@supabase/*": ["./src/lib/supabase/*"],
       "@components/*": ["./src/lib/components/*"],
       "@styles/*": ["./src/lib/styles/*"]
     }

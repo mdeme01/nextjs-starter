@@ -12,6 +12,8 @@
     "cy:e2e": "cypress run --e2e"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.0.7",
+    "@supabase/supabase-js": "^2.38.4",
     "next": "^14.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
